@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /entries endpoint returns list of entries stored in a database 1`] = `
+Object {
+  "content": "Test content 1",
+  "id": 1,
+  "structuredContent": Object {
+    "type": "text",
+    "value": "Test content 1",
+  },
+}
+`;
+
+exports[`GET /entries endpoint returns list of entries stored in a database 2`] = `
+Object {
+  "content": "Test content 1",
+  "id": 1,
+  "structuredContent": Object {
+    "type": "text",
+    "value": "Test content 1",
+  },
+}
+`;
+
+exports[`GET /entries endpoint returns list of entries stored in a database 3`] = `
+Array [
+  Object {
+    "content": "Test content 1",
+    "id": 1,
+    "structuredContent": Object {
+      "type": "text",
+      "value": "Test content 1",
+    },
+  },
+]
+`;
